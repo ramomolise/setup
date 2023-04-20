@@ -13,9 +13,9 @@ services:
       - SUDO_PASSWORD= #optional
       - SUDO_PASSWORD_HASH= #optional
       - PROXY_DOMAIN= #optional
-      - DEFAULT_WORKSPACE=/containers #optional
+      - DEFAULT_WORKSPACE=/dev #optional
     volumes:
-      - /home/$USER/containers:/containers # Change This
+      - /home/$USER/dev:/dev # Change This
     ports:
       - 8443:8443
     restart: unless-stopped
