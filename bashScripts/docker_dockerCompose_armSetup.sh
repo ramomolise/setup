@@ -18,9 +18,9 @@ curl -L https://github.com/linuxserver/docker-docker-compose/releases/download/1
 
 cd ..
 cd dockerCompose/visualStudioCodeServer/
-docker compose up -d
+sudo docker compose up -d
 cd ..
 cd nginxProxyManager/
-docker compose up -d
+sudo docker compose up -d
 
 read -p "Nginx Proxy Manager and VS Code Server are Running...press Enter to continue..."
