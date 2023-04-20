@@ -13,9 +13,9 @@ services:
       - SUDO_PASSWORD= #optional
       - SUDO_PASSWORD_HASH= #optional
       - PROXY_DOMAIN= #optional
-      - DEFAULT_WORKSPACE=/dev #optional
+      - DEFAULT_WORKSPACE=/setup #optional
     volumes:
-      - /home/$USER/dev:/dev # Change This
+      - /home/$USER/setup:/setup # Change This
     ports:
       - 8443:8443
     restart: unless-stopped
