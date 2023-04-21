@@ -21,3 +21,10 @@ sudo usermod -aG docker ${USER}
 sudo apt install python3-pip
 
 sudo pip3 install docker-compose
+
+cd ..
+cd dockerCompose/visualStudioCodeServer/
+sudo docker-compose up -d
+cd ..
+cd nginxProxyManager/
+sudo docker-compose up -d
