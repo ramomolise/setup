@@ -1,6 +1,6 @@
 # Setup
 
-Collection of Setup Scripts
+ARM Ubuntu Server Setup Automation Project
 
 # Categories:
 
